@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.2" class="java.beans.XMLDecoder">
+    <object class="client.model.Student">
+        <void property="birthday">
+            <object class="java.time.LocalDate" method="parse">
+                <string>2003-01-12</string>
+            </object>
+        </void>
+        <void property="characteristic">
+            <string>Clever</string>
+        </void>
+        <void property="id">
+            <int>1</int>
+        </void>
+        <void property="lastModification">
+            <object class="java.time.LocalDateTime" method="parse">
+                <string>2022-11-23T01:09:41.885870900</string>
+            </object>
+        </void>
+        <void property="name">
+            <string>Daniil</string>
+        </void>
+    </object>
+    <object class="client.model.Student">
+        <void property="birthday">
+            <object class="java.time.LocalDate" method="parse">
+                <string>2002-03-27</string>
+            </object>
+        </void>
+        <void property="characteristic">
+            <string>Smart</string>
+        </void>
+        <void property="id">
+            <int>2</int>
+        </void>
+        <void property="lastModification">
+            <object class="java.time.LocalDateTime" method="parse">
+                <string>2022-11-23T01:10:06.121826</string>
+            </object>
+        </void>
+        <void property="name">
+            <string>Danila</string>
+        </void>
+    </object>
+</java>
